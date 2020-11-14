@@ -1,11 +1,141 @@
-h1{
-color:#025157;
-text-align:center;
-
- }
-.center
-{justify-content: center;
-text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@font-face {
+    font-family: "Roboto', sans-serif;";
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,400;1,500&display=swap");
+}
+body {
+    background-color: #fffbf7;
+    margin-top: 200px;
+    /*text-align: center;*/
+}
+.header {
+    font-size: 16px;
+    margin: 40px 20px 0 20px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+}
+.header > * {
+    display: inline-block;
+}
+.navbar {
+    width: 70%;
+    color: #025157;
+    font-weight: 500;
+}
+.menu-item {
+    margin: 0px 25px;
+    color: #025157;
+}
+li {
+    display: inline;
+}
+ul{
+    display: flex;
+}
+.logo {
+    vertical-align: middle;
+}
+.actions {
+    width: 15%;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px;
+}
+.actions a {
+    color: #67b54b;
+    margin: 12px 14px;
+}
+.actions button {
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+h1 {
+    color: #FF1493;
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+}
+h3 {
+    font-size: 40px;
+    line-height: 48px;
+    padding-left: 15px;
+    color: #FF1493;
+    text-align: left;
+}
+h4 {
+    color: #46484c;
+    text-align: center;
+}
+p  {
+    color: #46484c;
+    text-align: center;
+    font-size: 16px;
+}
+p > span  {
+    color: #343434;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 15px;
+    display: block;
+}
+.button-home {
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    height: 100%;
+    border-radius: 0px 8px 8px 0px;
+    padding: 16px 20px;
+    margin-left: -10px;
+}
+.inputin {
+    border: 1px solid #b6b6b6;
+    padding: 15px 20px;
+    width: 60%;
+    max-width: 150px;
+}
+form {
+    text-align: center;
+}
+.form1 {
+    text-align: left;
 }
 
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+}
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.publish {
+    flex: 1;
+}
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+}
+.features {
+	display: grid;
+	grid-template: repeat(2, 1fr) / repeat(2, 330px);
+	background-color: #025157;
+	padding: 5% 10%;
+}	
 
